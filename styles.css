@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.home-icon {
+    height: 2rem;
+    width: 2rem;
+}
+.options-icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.left-panel {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    background-color: antiquewhite;
+    border-left: 0.5rem solid black;
+}
+
+.left-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1rem solid black;
+}
+.main-body {
+    margin-top: 0;
+}
+.header-text,
+.header-text-2,
+.home-icon {
+    margin: 0.5rem;
+}
+.aud {
+    padding-top: 20rem;
+    padding-left: 5rem;
+}
+.right-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.options-icon {
+    display: flex;
+    padding-right: 5rem;
+    padding-left: 0.01rem;
+}
+.option-text {
+    display: flex;
+    padding-left: 20rem;
+    text-decoration: none;
+    color: black;
+}
