@@ -1,0 +1,52 @@
+    <div class="left-panel">
+        <div class="homepage-header">
+            <a href="./index.html" target="_blank" rel="noopener noreferrer">
+                <img class="homepage-icon" src="./images/homepage-icon.png" alt="Homepage">
+            </a>
+        </div>
+        <div class="main-body">
+            <h1 class="welcome-header">Welcome!</h1>
+            <h3 class="main-text">This website is my little project to start learning HTML and CSS.
+
+                I'll link my Github page and stuff I like over to the right. This'll be a great way for me to learn formatting,
+                redirecting, implementing media player etc.
+                Enjoy surfing around.
+
+                This site will continue to be updated.
+            </h3>
+        </div>
+        <div class="release-note">
+                <h1 class="release-header">Release Notes</h1>
+            <audio controls class="aud-file">
+                <source src="./audio/【Ado】シュガーバイン 歌いました (320kbps).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <div class="right-panel">
+        <div class="right-top">
+            <h1 class="redirect=header">Redirects:</h1>
+            <a href="./pages/option.html" target="_blank" rel="noopener noreferrer">
+                <img class="options-icon" src="./images/options-bar.png" alt="Options">
+            </a>
+        </div>
+        <div class="right-body">
+            <h2 class="socials-header">Socials:</h2>
+            <a href="https://github.com/SaigoNoTanuki" target="_blank" rel="noopener noreferrer">
+                <img class="github-icon" src="./images/github-icon.png" alt="Github-Profile">
+            </a>
+            <a href="https://discord.gg/c6jcrj35" target="_blank" rel="noopener noreferrer">
+                <img class="discord-icon" src="./images/discord-icon.png" alt="Discord-Profile">
+            </a>
+            <a href="https://myanimelist.net/profile/SaigoNoTanuki" target="_blank" rel="noopener noreferrer">
+                <img class="mal-icon" src="./images/MAL-icon.png" alt="MAL-Profile">
+            </a>
+            <h2 class="hobby-header">Stuff I like:</h2>
+            <a href="./pages/adomination.html" target="_blank" rel="noopener noreferrer">
+                <img class="ado-icon" src="./images/ado-icon.png" alt="Adomination-icon">
+            </a>
+            <a href="./pages/one_piece.html" target="_blank" rel="noopener noreferrer">
+                <img class="op-icon" src="./images/op-icon.png" alt="One-Piece">
+            </a>
+            <a href="./pages/about.html" target="_blank" rel="noopener noreferrer">
+                <img class="about-icon" src="./images/about-slanted-icon.png" alt="About">
+            </a>
