@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libertinus+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.one-piece-icon,
+.options-icon {
+    display: flex;
+    height: 5rem;
+    width: 15rem;
+}
+
+.about,
+.ado-page,
+.homepage {
+    display: flex;
+    align-items: space-between;
+    height: 5rem;
+    width: 15rem;
+}
+
+.one-pace-icon,
+.comick-icon {
+    display: flex;
+    height: 15rem;
+    margin: 2rem;
+}
+
+.banner-1,
+.banner-2,
+.banner-3,
+.banner-4,
+.banner-5,
+.banner-6,
+.banner-7,
+.banner-8,
+.banner-9 {
+    display: flex;
+    height: 50rem;
+}
+
+.sup-redirect {
+    display: flex;
+    width: 60rem;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.opening-para {
+    display: flex;
+    font-size: 25px;
+}
+
+.arcs-para-1,
+.arcs-para-2,
+.arcs-para-3,
+.arcs-para-4,
+.arcs-para-5,
+.arcs-para-6,
+.arcs-para-7,
+.arcs-para-8,
+.arcs-para-9,
+.arcs-para-10,
+.manga-anime-para-1,
+.manga-anime-para-2,
+.openings-para-1 {
+    display: flex;
+    font-size: 18px;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.s8,
+.s9 {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Libertinus Mono', sans-serif;
+}
+
+.arc-1,
+.arc-2,
+.arc-3,
+.arc-4,
+.arc-5,
+.arc-6,
+.arc-7,
+.arc-8,
+.arc-9,
+.section-header-1,
+.section-header-2,
+.section-header-3,
+.section-header-4 {
+    display: flex;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border-bottom: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    padding-bottom: 4rem;
+}
+
+.manga-anime,
+.openings,
+.fav-arcs,
+.support-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.manga-anime {
+    display: flex;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+}
+.openings {
+    display: flex;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.fav-arcs {
+    display: flex;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+}
